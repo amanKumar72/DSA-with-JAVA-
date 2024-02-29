@@ -43,8 +43,6 @@ public class SpiralMatrix {
         m[i][j] = sc.nextInt();
       }
     }
-    System.out.println("Enter item to search");
-    int key = sc.nextInt();
 
     System.out.println("Sum of Primary and Secondory Diagonal=\n");
     TraverseSpiralMatrix(m);
